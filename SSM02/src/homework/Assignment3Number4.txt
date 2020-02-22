@@ -1,0 +1,190 @@
+4) When some simulations of the code are run, customer objects are created,
+they are given random values for all their variables, added to a serve queue
+where 5 of them are randomly chosen to depart the line, and q_hat, u_hat, and
+standard deviation are calculated. This is because they are all created in the
+driver using an Object class, given random values for their variables in the
+driver, and then the rest of the driver handles all of the calculations.
+
+Below are 5 simulations of the code:
+
+-------------------------------------------------------------------------------------
+
+System Simulation & Modeling: Week 3
+Arrive time = 1.1
+Start Serve time = 1.5
+
+**********
+
+Customer [id=Adam, arriveTime=1.0, startServeTime=2.0, endServeTime=4.0, departTime=3.0, minTime=1.0, maxTime=4.0]
+Adam exceeded serve time and departed.
+Customer [id=Bill, arriveTime=1.4, startServeTime=1.6, endServeTime=2.4, departTime=2.6, minTime=1.4, maxTime=2.4]
+Customer [id=Chad, arriveTime=1.2, startServeTime=2.0, endServeTime=2.5, departTime=3.5, minTime=1.2, maxTime=2.5]
+Customer [id=Dan, arriveTime=1.3, startServeTime=2.2, endServeTime=4.1, departTime=3.1, minTime=1.3, maxTime=4.1]
+Dan exceeded serve time and departed.
+Customer [id=Eddy, arriveTime=1.1, startServeTime=1.7, endServeTime=2.7, departTime=2.8, minTime=1.1, maxTime=2.7]
+Customer [id=Fred, arriveTime=1.5, startServeTime=1.7, endServeTime=2.0, departTime=2.7, minTime=1.5, maxTime=2.0]
+Customer [id=Gil, arriveTime=1.2, startServeTime=1.9, endServeTime=2.2, departTime=3.1, minTime=1.2, maxTime=2.2]
+Customer [id=Hector, arriveTime=1.4, startServeTime=1.7, endServeTime=3.4, departTime=2.4, minTime=1.4, maxTime=3.4]
+Hector exceeded serve time and departed.
+Customer [id=Igor, arriveTime=1.0, startServeTime=1.4, endServeTime=2.0, departTime=2.2, minTime=1.0, maxTime=2.0]
+Customer [id=Josh, arriveTime=1.1, startServeTime=1.7, endServeTime=2.6, departTime=2.8, minTime=1.1, maxTime=2.6]
+Customer [id=Kyle, arriveTime=1.4, startServeTime=1.5, endServeTime=2.0, departTime=2.2, minTime=1.4, maxTime=2.0]
+Customer [id=Lenny, arriveTime=1.2, startServeTime=1.5, endServeTime=1.7, departTime=1.9, minTime=1.2, maxTime=1.7]
+Customer [id=Manny, arriveTime=1.3, startServeTime=1.5, endServeTime=4.0, departTime=3.0, minTime=1.3, maxTime=4.0]
+Manny exceeded serve time and departed.
+Customer [id=Noah, arriveTime=1.4, startServeTime=1.9, endServeTime=2.3, departTime=2.6, minTime=1.4, maxTime=2.3]
+Customer [id=Oscar, arriveTime=1.3, startServeTime=2.2, endServeTime=3.1, departTime=3.6, minTime=1.3, maxTime=3.1]
+Customer [id=Pete, arriveTime=1.3, startServeTime=2.0, endServeTime=2.4, departTime=3.0, minTime=1.3, maxTime=2.4]
+Customer [id=Quinn, arriveTime=1.0, startServeTime=1.2, endServeTime=1.9, departTime=2.3, minTime=1.0, maxTime=1.9]
+Customer [id=Ron, arriveTime=1.1, startServeTime=2.0, endServeTime=2.6, departTime=3.5, minTime=1.1, maxTime=2.6]
+Customer [id=Sam, arriveTime=1.2, startServeTime=1.4, endServeTime=4.0, departTime=3.0, minTime=1.2, maxTime=4.0]
+Sam exceeded serve time and departed.
+Customer [id=Tim, arriveTime=1.0, startServeTime=2.0, endServeTime=3.0, departTime=3.4, minTime=1.0, maxTime=3.0]
+Customers that departed before being served: 5
+Average # of elements in a queue over the time of a run (estimate): 20.0
+Average utilization time of the server over the time of a run (estimate): 0.73
+Standard Deviation: 0.52
+
+System Simulation & Modeling: Week 3
+Arrive time = 1.3
+Start Serve time = 1.5
+
+**********
+
+Customer [id=Adam, arriveTime=1.3, startServeTime=1.9, endServeTime=2.4, departTime=3.2, minTime=1.3, maxTime=2.4]
+Customer [id=Bill, arriveTime=1.4, startServeTime=1.6, endServeTime=1.9, departTime=2.0, minTime=1.4, maxTime=1.9]
+Customer [id=Chad, arriveTime=1.0, startServeTime=1.2, endServeTime=3.8, departTime=2.8, minTime=1.0, maxTime=3.8]
+Chad exceeded serve time and departed.
+Customer [id=Dan, arriveTime=1.1, startServeTime=1.5, endServeTime=1.7, departTime=2.3, minTime=1.1, maxTime=1.7]
+Customer [id=Eddy, arriveTime=1.0, startServeTime=1.9, endServeTime=4.1, departTime=3.1, minTime=1.0, maxTime=4.1]
+Eddy exceeded serve time and departed.
+Customer [id=Fred, arriveTime=1.1, startServeTime=2.0, endServeTime=2.2, departTime=3.1, minTime=1.1, maxTime=2.2]
+Customer [id=Gil, arriveTime=1.0, startServeTime=1.9, endServeTime=2.4, departTime=3.0, minTime=1.0, maxTime=2.4]
+Customer [id=Hector, arriveTime=1.2, startServeTime=2.2, endServeTime=2.8, departTime=2.9, minTime=1.2, maxTime=2.8]
+Customer [id=Igor, arriveTime=1.0, startServeTime=1.4, endServeTime=2.6, departTime=1.6, minTime=1.0, maxTime=2.6]
+Igor exceeded serve time and departed.
+Customer [id=Josh, arriveTime=1.3, startServeTime=1.6, endServeTime=2.4, departTime=2.8, minTime=1.3, maxTime=2.4]
+Customer [id=Kyle, arriveTime=1.5, startServeTime=1.6, endServeTime=2.0, departTime=2.3, minTime=1.5, maxTime=2.0]
+Customer [id=Lenny, arriveTime=1.0, startServeTime=1.3, endServeTime=3.3, departTime=2.3, minTime=1.0, maxTime=3.3]
+Lenny exceeded serve time and departed.
+Customer [id=Manny, arriveTime=1.1, startServeTime=1.9, endServeTime=2.9, departTime=3.5, minTime=1.1, maxTime=2.9]
+Customer [id=Noah, arriveTime=1.1, startServeTime=1.7, endServeTime=3.9, departTime=2.9, minTime=1.1, maxTime=3.9]
+Noah exceeded serve time and departed.
+Customer [id=Oscar, arriveTime=1.4, startServeTime=1.8, endServeTime=2.0, departTime=2.1, minTime=1.4, maxTime=2.0]
+Customer [id=Pete, arriveTime=1.4, startServeTime=1.9, endServeTime=2.9, departTime=3.3, minTime=1.4, maxTime=2.9]
+Customer [id=Quinn, arriveTime=1.5, startServeTime=2.2, endServeTime=2.8, departTime=3.6, minTime=1.5, maxTime=2.8]
+Customer [id=Ron, arriveTime=1.3, startServeTime=1.6, endServeTime=2.2, departTime=2.3, minTime=1.3, maxTime=2.2]
+Customer [id=Sam, arriveTime=1.3, startServeTime=1.7, endServeTime=2.3, departTime=3.1, minTime=1.3, maxTime=2.3]
+Customer [id=Tim, arriveTime=1.2, startServeTime=1.8, endServeTime=1.9, departTime=2.6, minTime=1.2, maxTime=1.9]
+Customers that departed before being served: 5
+Average # of elements in a queue over the time of a run (estimate): 20.0
+Average utilization time of the server over the time of a run (estimate): 0.65
+Standard Deviation: 0.55
+
+System Simulation & Modeling: Week 3
+Arrive time = 1.1
+Start Serve time = 1.5
+
+**********
+
+Customer [id=Adam, arriveTime=1.4, startServeTime=2.3, endServeTime=2.7, departTime=3.6, minTime=1.4, maxTime=2.7]
+Customer [id=Bill, arriveTime=1.1, startServeTime=1.8, endServeTime=4.4, departTime=3.4, minTime=1.1, maxTime=4.4]
+Bill exceeded serve time and departed.
+Customer [id=Chad, arriveTime=1.4, startServeTime=2.4, endServeTime=4.5, departTime=3.5, minTime=1.4, maxTime=4.5]
+Chad exceeded serve time and departed.
+Customer [id=Dan, arriveTime=1.1, startServeTime=1.4, endServeTime=1.8, departTime=2.7, minTime=1.1, maxTime=1.8]
+Customer [id=Eddy, arriveTime=1.0, startServeTime=1.1, endServeTime=2.3, departTime=1.3, minTime=1.0, maxTime=2.3]
+Eddy exceeded serve time and departed.
+Customer [id=Fred, arriveTime=1.1, startServeTime=1.7, endServeTime=2.3, departTime=3.2, minTime=1.1, maxTime=2.3]
+Customer [id=Gil, arriveTime=1.5, startServeTime=2.4, endServeTime=3.1, departTime=3.6, minTime=1.5, maxTime=3.1]
+Customer [id=Hector, arriveTime=1.3, startServeTime=2.1, endServeTime=2.3, departTime=3.0, minTime=1.3, maxTime=2.3]
+Customer [id=Igor, arriveTime=1.0, startServeTime=1.2, endServeTime=1.4, departTime=1.5, minTime=1.0, maxTime=1.4]
+Customer [id=Josh, arriveTime=1.1, startServeTime=1.7, endServeTime=1.9, departTime=2.8, minTime=1.1, maxTime=1.9]
+Customer [id=Kyle, arriveTime=1.3, startServeTime=1.7, endServeTime=2.7, departTime=3.1, minTime=1.3, maxTime=2.7]
+Customer [id=Lenny, arriveTime=1.5, startServeTime=2.1, endServeTime=3.1, departTime=3.5, minTime=1.5, maxTime=3.1]
+Customer [id=Manny, arriveTime=1.0, startServeTime=1.9, endServeTime=2.5, departTime=3.4, minTime=1.0, maxTime=2.5]
+Customer [id=Noah, arriveTime=1.1, startServeTime=1.4, endServeTime=2.4, departTime=2.9, minTime=1.1, maxTime=2.4]
+Customer [id=Oscar, arriveTime=1.4, startServeTime=2.3, endServeTime=3.1, departTime=4.1, minTime=1.4, maxTime=3.1]
+Customer [id=Pete, arriveTime=1.0, startServeTime=1.8, endServeTime=2.2, departTime=2.8, minTime=1.0, maxTime=2.2]
+Customer [id=Quinn, arriveTime=1.5, startServeTime=2.2, endServeTime=5.0, departTime=4.0, minTime=1.5, maxTime=5.0]
+Quinn exceeded serve time and departed.
+Customer [id=Ron, arriveTime=1.3, startServeTime=2.2, endServeTime=2.4, departTime=3.3, minTime=1.3, maxTime=2.4]
+Customer [id=Sam, arriveTime=1.4, startServeTime=1.9, endServeTime=2.3, departTime=2.9, minTime=1.4, maxTime=2.3]
+Customer [id=Tim, arriveTime=1.2, startServeTime=1.4, endServeTime=4.1, departTime=3.1, minTime=1.2, maxTime=4.1]
+Tim exceeded serve time and departed.
+Customers that departed before being served: 5
+Average # of elements in a queue over the time of a run (estimate): 20.0
+Average utilization time of the server over the time of a run (estimate): 0.65
+Standard Deviation: 0.72
+
+System Simulation & Modeling: Week 3
+Arrive time = 1.4
+Start Serve time = 2.3
+
+**********
+
+Customer [id=Adam, arriveTime=1.2, startServeTime=1.3, endServeTime=2.0, departTime=3.0, minTime=1.2, maxTime=2.0]
+Customer [id=Bill, arriveTime=1.1, startServeTime=1.5, endServeTime=3.7, departTime=2.7, minTime=1.1, maxTime=3.7]
+Bill exceeded serve time and departed.
+Customer [id=Chad, arriveTime=1.3, startServeTime=1.4, endServeTime=1.7, departTime=1.8, minTime=1.3, maxTime=1.7]
+Customer [id=Dan, arriveTime=1.3, startServeTime=1.9, endServeTime=2.5, departTime=3.3, minTime=1.3, maxTime=2.5]
+Customer [id=Eddy, arriveTime=1.3, startServeTime=1.9, endServeTime=3.7, departTime=2.7, minTime=1.3, maxTime=3.7]
+Eddy exceeded serve time and departed.
+Customer [id=Fred, arriveTime=1.0, startServeTime=1.7, endServeTime=1.9, departTime=2.3, minTime=1.0, maxTime=1.9]
+Customer [id=Gil, arriveTime=1.5, startServeTime=2.0, endServeTime=3.8, departTime=2.8, minTime=1.5, maxTime=3.8]
+Gil exceeded serve time and departed.
+Customer [id=Hector, arriveTime=1.1, startServeTime=1.4, endServeTime=2.8, departTime=1.8, minTime=1.1, maxTime=2.8]
+Hector exceeded serve time and departed.
+Customer [id=Igor, arriveTime=1.4, startServeTime=1.5, endServeTime=4.2, departTime=3.2, minTime=1.4, maxTime=4.2]
+Igor exceeded serve time and departed.
+Customer [id=Josh, arriveTime=1.3, startServeTime=2.3, endServeTime=3.2, departTime=4.0, minTime=1.3, maxTime=3.2]
+Customer [id=Kyle, arriveTime=1.2, startServeTime=1.7, endServeTime=2.5, departTime=2.6, minTime=1.2, maxTime=2.5]
+Customer [id=Lenny, arriveTime=1.5, startServeTime=2.3, endServeTime=3.3, departTime=4.0, minTime=1.5, maxTime=3.3]
+Customer [id=Manny, arriveTime=1.3, startServeTime=1.9, endServeTime=2.2, departTime=3.2, minTime=1.3, maxTime=2.2]
+Customer [id=Noah, arriveTime=1.4, startServeTime=1.7, endServeTime=2.3, departTime=3.2, minTime=1.4, maxTime=2.3]
+Customer [id=Oscar, arriveTime=1.5, startServeTime=1.7, endServeTime=2.4, departTime=3.0, minTime=1.5, maxTime=2.4]
+Customer [id=Pete, arriveTime=1.1, startServeTime=2.0, endServeTime=2.7, departTime=3.4, minTime=1.1, maxTime=2.7]
+Customer [id=Quinn, arriveTime=1.0, startServeTime=1.3, endServeTime=1.4, departTime=2.3, minTime=1.0, maxTime=1.4]
+Customer [id=Ron, arriveTime=1.1, startServeTime=1.5, endServeTime=1.9, departTime=2.7, minTime=1.1, maxTime=1.9]
+Customer [id=Sam, arriveTime=1.5, startServeTime=1.6, endServeTime=2.3, departTime=2.5, minTime=1.5, maxTime=2.3]
+Customer [id=Tim, arriveTime=1.2, startServeTime=1.8, endServeTime=2.8, departTime=3.7, minTime=1.2, maxTime=2.8]
+Customers that departed before being served: 5
+Average # of elements in a queue over the time of a run (estimate): 20.0
+Average utilization time of the server over the time of a run (estimate): 0.67
+Standard Deviation: 0.46
+
+System Simulation & Modeling: Week 3
+Arrive time = 1.0
+Start Serve time = 1.5
+
+**********
+
+Customer [id=Adam, arriveTime=1.4, startServeTime=1.6, endServeTime=1.9, departTime=2.9, minTime=1.4, maxTime=1.9]
+Customer [id=Bill, arriveTime=1.4, startServeTime=1.7, endServeTime=1.8, departTime=2.7, minTime=1.4, maxTime=1.8]
+Customer [id=Chad, arriveTime=1.2, startServeTime=2.2, endServeTime=2.3, departTime=3.3, minTime=1.2, maxTime=2.3]
+Customer [id=Dan, arriveTime=1.5, startServeTime=2.1, endServeTime=3.1, departTime=3.7, minTime=1.5, maxTime=3.1]
+Customer [id=Eddy, arriveTime=1.0, startServeTime=1.1, endServeTime=1.2, departTime=2.2, minTime=1.0, maxTime=1.2]
+Customer [id=Fred, arriveTime=1.0, startServeTime=1.2, endServeTime=1.3, departTime=1.5, minTime=1.0, maxTime=1.3]
+Customer [id=Gil, arriveTime=1.2, startServeTime=1.9, endServeTime=2.7, departTime=3.1, minTime=1.2, maxTime=2.7]
+Customer [id=Hector, arriveTime=1.1, startServeTime=1.6, endServeTime=2.6, departTime=3.1, minTime=1.1, maxTime=2.6]
+Customer [id=Igor, arriveTime=1.2, startServeTime=1.3, endServeTime=1.5, departTime=2.2, minTime=1.2, maxTime=1.5]
+Customer [id=Josh, arriveTime=1.2, startServeTime=1.4, endServeTime=1.6, departTime=2.5, minTime=1.2, maxTime=1.6]
+Customer [id=Kyle, arriveTime=1.1, startServeTime=1.9, endServeTime=4.0, departTime=3.0, minTime=1.1, maxTime=4.0]
+Kyle exceeded serve time and departed.
+Customer [id=Lenny, arriveTime=1.2, startServeTime=2.1, endServeTime=2.7, departTime=3.2, minTime=1.2, maxTime=2.7]
+Customer [id=Manny, arriveTime=1.4, startServeTime=2.3, endServeTime=3.0, departTime=3.6, minTime=1.4, maxTime=3.0]
+Customer [id=Noah, arriveTime=1.2, startServeTime=1.4, endServeTime=4.1, departTime=3.1, minTime=1.2, maxTime=4.1]
+Noah exceeded serve time and departed.
+Customer [id=Oscar, arriveTime=1.3, startServeTime=1.5, endServeTime=3.3, departTime=2.3, minTime=1.3, maxTime=3.3]
+Oscar exceeded serve time and departed.
+Customer [id=Pete, arriveTime=1.3, startServeTime=1.8, endServeTime=2.8, departTime=3.6, minTime=1.3, maxTime=2.8]
+Customer [id=Quinn, arriveTime=1.4, startServeTime=2.3, endServeTime=4.4, departTime=3.4, minTime=1.4, maxTime=4.4]
+Quinn exceeded serve time and departed.
+Customer [id=Ron, arriveTime=1.5, startServeTime=2.0, endServeTime=2.5, departTime=3.3, minTime=1.5, maxTime=2.5]
+Customer [id=Sam, arriveTime=1.1, startServeTime=1.7, endServeTime=2.2, departTime=2.9, minTime=1.1, maxTime=2.2]
+Customer [id=Tim, arriveTime=1.0, startServeTime=1.5, endServeTime=3.1, departTime=2.1, minTime=1.0, maxTime=3.1]
+Tim exceeded serve time and departed.
+Customers that departed before being served: 5
+Average # of elements in a queue over the time of a run (estimate): 20.0
+Average utilization time of the server over the time of a run (estimate): 0.74
+Standard Deviation: 0.59
